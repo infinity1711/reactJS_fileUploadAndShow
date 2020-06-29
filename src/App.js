@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import Dashboard from './components/dashboard';
+/* Using latest React hooks  */
+import Dashboard from './components/dashboard-hooks';
+
+/* Using old React */
+// import Dashboard from './components/dashboard';
 
 function App() {
   return (
